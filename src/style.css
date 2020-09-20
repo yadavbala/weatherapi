@@ -1,0 +1,75 @@
+.weather-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* flex-direction: column-reverse; */
+    margin: 50px 0;
+}
+
+.weather-align{
+    display: flex;
+    min-width: 80%;
+    margin: 0 auto;
+    height: 90vh;
+}
+
+.left-side{
+    background: url('./images/weather.jpg') center center no-repeat;
+    height:90vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: darkred;
+    
+}
+
+.right-side{
+    display: flex;
+    height: 90vh;
+    margin: 0px auto;
+    flex-direction: column;
+    padding:20px 0;
+
+}
+
+.col-no-padding-left{
+    padding-left:0
+}
+
+.col-no-padding-right{
+    padding-right: 0;
+}
+
+.input_citycoun{
+    border:0;
+    background: transparent;
+    border-bottom:2px solid firebrick;
+}
+
+.input_citycou{
+    border:0;
+    background: transparent;
+    border-bottom:2px solid firebrick;
+    padding-left:5px;
+    margin-left:15px;
+}
+
+.input_citycoun:focus{
+    outline:none;
+}
+
+.input_citycou:focus{
+    outline:none;
+}
+
+.pad_rit{
+    padding-right: 8px;
+    padding-left:4px;
+}
+
+input:-internal-autofill-selected {
+    background: transparent!important;
+}
